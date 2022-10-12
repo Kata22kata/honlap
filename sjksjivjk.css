@@ -1,0 +1,98 @@
+body{
+    color: rgb(121, 24, 196);
+
+    background-color: black;
+    background-image: url(bg.png) ;
+    background-size: cover;
+}
+p {
+     font-weight: bold;
+     font-size: 45px ;
+     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+     text-align: center;
+
+}
+#p1 {
+     font-style: oblique;
+}
+a {
+    text-align: center;
+    color:black;
+    text-decoration: none;
+    background-color: rgb(253, 213, 10);
+    padding: 4px;
+    margin: 3px;
+    border-style: solid;
+    border-width: 2px;
+    border-radius: 12%;
+    border-color: rgb(69, 210, 40);
+    
+}
+a:hover{
+    background-color: rgb(254, 138, 14);
+    color: blueviolet;
+    border-color: rgb(255, 254, 254);
+
+}
+.kozep {
+    text-align: center;
+}
+img {
+    position: relative;
+    transform: translate(0, 10px);
+    border-style:solid;
+    border-width:3px;
+    border-color: rgb(255, 136, 0);
+    border: solid 3px rgb(255, 136, 0);
+    border-radius: 12%;
+    padding: -1px;
+    margin: 0%;
+}
+table, h1, a, #vissza {
+    text-align: center;
+    font-family:'Times New Roman', Times, serif;
+}
+h1 {
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: rgb(214, 214, 153);
+}
+table {
+    font-size: x-large;    
+    border-spacing: 4px;
+    box-shadow: 1px 1px 3px black;
+    border-radius: 5px;
+    padding: 7px;
+    margin: auto;
+}
+td {
+    box-shadow: 1px 1px 4px black inset;
+    background-color: rgb(64, 38, 136);
+    text-align: center;
+    border: solid 3px rgb(241, 160, 37);
+    padding: 4px;
+    color: rgb(32, 255, 2);
+    cursor: pointer;
+    border-radius: 9px;
+}
+td:hover {
+    background-color: rgb(255, 149, 10);
+    color: rgb(255, 252, 66);
+    text-shadow: 1px 1px 5px yellow;
+}
+td.osz {
+    font-size: 12px;
+}
+td.osz > span {
+    font-weight: normal;
+    font-family: Arial;
+    font-size: 10px;
+    text-shadow: 1px 1px 4px black;
+    color: rgb(30, 255, 0);
+}
+th {
+    width: 120px;
+    background-color: rgb(64, 202, 126);
+    color: rgb(92, 34, 100);
+    padding: 7px;
+    border-radius: 10px;
+}
