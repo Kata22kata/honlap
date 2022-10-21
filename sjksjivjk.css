@@ -1,8 +1,8 @@
 body{
-    color: rgb(121, 24, 196);
+    color: rgb(4, 59, 9);
 
     background-color: black;
-    background-image: url(bg.png) ;
+    background-image: url(bg2.jpg) ;
     background-size: cover;
 }
 p {
@@ -14,18 +14,19 @@ p {
 }
 #p1 {
      font-style: oblique;
+     font-size: 23px;
 }
 a {
     text-align: center;
     color:black;
     text-decoration: none;
-    background-color: rgb(253, 213, 10);
+    background-color: rgb(221, 184, 233);
     padding: 4px;
     margin: 3px;
     border-style: solid;
     border-width: 2px;
     border-radius: 12%;
-    border-color: rgb(69, 210, 40);
+    border-color: rgb(167, 188, 227);
     
 }
 a:hover{
@@ -54,7 +55,8 @@ table, h1, a, #vissza {
 }
 h1 {
     -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: rgb(214, 214, 153);
+    -webkit-text-stroke-color: rgb(19, 49, 41);
+    font-size: 32px;
 }
 table {
     font-size: x-large;    
@@ -95,4 +97,25 @@ th {
     color: rgb(92, 34, 100);
     padding: 7px;
     border-radius: 10px;
+}
+
+#gombok {
+    display:flex;
+    position: relative;
+    width:fit-content;
+    left: 50%;
+    transform: translate(-50%, 0);
+    color:rgb(6, 88, 60)
+}
+
+#kor {
+    animation-name: animacio;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animacio {
+    0% {cx: 50px; cy: 50px}
+    50% {cx: 500px; cy: 100px}
+    100% {cx: 50px; cy: random}
 }
