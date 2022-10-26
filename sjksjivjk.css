@@ -116,6 +116,13 @@ th {
 
 @keyframes animacio {
     0% {cx: 50px; cy: 50px}
-    50% {cx: 500px; cy: 100px}
-    100% {cx: 50px; cy: random}
+    25% {cx: 500px; cy: 50px}
+    50% {cx: 500px; cy: 250px}
+    75% {cx:50px; cy: 250px}
+    100% {cx: 50px; cy: 50px}
+}
+
+svg {
+    border: solid rgb(125, 117, 233);
+    background-color: rgb(117, 233, 140);
 }
