@@ -19,8 +19,8 @@
 <script>
     el = document.getElementById("x")
     setInterval(() => {
-        el.style.top = 90+(Math.random()*window.innerHeight-150)
-        el.style.left = 260+(Math.random()*window.innerWidth-400)
+        el.style.top = 190+Math.random()*(window.innerHeight-350)
+        el.style.left = 260+Math.random()*(window.innerWidth-500)
         el.style.color = `rgb(${
             Math.random()*256
         },$)`
