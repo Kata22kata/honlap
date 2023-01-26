@@ -1,18 +1,5 @@
-
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Nem labdácska</title>
-    <link rel="stylesheet" href="./sjksjivjk.css">
-</head>
 <body>
     <div id="x">Ezt fogom animálni</div>
-    <html>
-    <div id="vissza">
-        <a href="./index.html">Vissza</a>
-    </div>
-</html>
 </body>
 <style>
     #x {
@@ -32,8 +19,11 @@
 <script>
     el = document.getElementById("x")
     setInterval(() => {
-        el.style.top = Math.random()*300+50
-        el.style.left = Math.random()*300+50
+        el.style.top = 90+(Math.random()*window.innerHeight-150)
+        el.style.left = 260+(Math.random()*window.innerWidth-400)
+        el.style.color = `rgb(${
+            Math.random()*256
+        },$)`
         el.style.backgroundColor= `rgb(${
             Math.random()*256
         },${
@@ -43,3 +33,8 @@
         })`
     }, 2000)
 </script>
+<html>
+    <div id="vissza">
+        <a href="./index.html">Vissza</a>
+    </div>
+</html>
